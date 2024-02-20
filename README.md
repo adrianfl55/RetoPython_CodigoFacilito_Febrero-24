@@ -56,7 +56,10 @@ Estas 3 nuevas opciones deberán ser presentadas al usuario al comienzo del prog
 
 De igual forma el programa tendrán una quinta opción que le permita la usuario finalizar el programa cuando él lo desee.
 
-Un Tip. Para estas nuevas opciones puedes presentarle a tu usuario un pequeño menú del cual pueda elegir. Por ejemplo opción A.-) registrar nuevos usuarios, opción B.-) listar usuarios, Opción C.-) Editar usuarios y así sucesivamente.
+Un Tip. Para estas nuevas opciones puedes presentarle a tu usuario un pequeño menú del cual pueda elegir. Por ejemplo:
+A. Registrar nuevos usuarios
+B. Listar usuarios
+C. Editar usuarios y así sucesivamente.
 
 ## Reto Viernes
 Listo, llegamos al reto número 5 de la semana. Nuestro programa ya funciona sumamente bien. Ya podemos crear, listar y editar usarios.
