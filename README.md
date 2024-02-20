@@ -28,3 +28,55 @@ Validaremos que, tanto nombre, apellidos como correo electrónico tengan una lon
 Así mismo el número de teléfono será a 10 dígitos.
 
 Si por alguna razón el usuario ingresa mal alguno de estos datos, el programa deberá notificarle y no permitirá continuar hasta que se ingresen datos correctos.
+
+## Reto Miércoles
+Vaya, ya llegamos al reto número 3 de la semana, y para este tercer reto lo que haremos será añadir 2 nuevas funcionalidades a nuestro programa de registro de usuarios.
+
+Estas funcionalidades son las siguientes
+
+.1.- Siempre que se registre un nuevo usuario de forma exitosa generaremos un identificador único para este registro/usuario. Te recomiendo sea un ID numérico auto incremental, que comience en 1 hasta N. Sin embargo siéntete libre elegir el formato o tipo que tú desees.
+2.- Todos estos nuevos identificadores deberán almacenarse en un listado que será impreso en consola cuando todos los registros se hayan creado. Esto de tal forma que el usuario pueda conocer y tenga certeza que las operaciones, en efecto, se realizaron de forma exitosa.
+
+Con estas 2 nuevas funcionalidades es probable te intuyas como iremos finalizando nuestro programa para el quinto día.
+
+## Reto Jueves
+Ya nos encontramos en la recta final de nuestra semana, y lo que haremos ahora, cómo ya es costumbre, será añadir más funcionalidades a nuestro programa.
+
+Puntualmente 4 nuevas funcionalidades. Aquí van.
+
+1.- Ahora todos los valores que representan a un usuario: Nombre, apellidos, número de teléfono y correo electrónico deberán almacenarse en un diccionario.
+
+2.- Se añadirá la opción de poder listar el ID de todos los usuarios registrados hasta el momento.
+
+3.- Se añadirá la opción de poder ver la información de un usuario con respecto a un ID. Es decir, el usuario podrá ingresar un ID y a partir de este conocer la información registrada.
+
+4.- Se añadirá la opción de poder editar la información de un usuario con respecto a un ID. Es decir, el usuario podrá ingresar un ID y a partir de este el programa pedirá nuevamente los valores de un registro para actualizarlos.
+
+Estas 3 nuevas opciones deberán ser presentadas al usuario al comienzo del programa, esto con la finalidad que sea el usuario quien defina que quiere hacer justo ahora: añadir nuevos usuario, consultarlos o editarlos.
+
+De igual forma el programa tendrán una quinta opción que le permita la usuario finalizar el programa cuando él lo desee.
+
+Un Tip. Para estas nuevas opciones puedes presentarle a tu usuario un pequeño menú del cual pueda elegir. Por ejemplo opción A.-) registrar nuevos usuarios, opción B.-) listar usuarios, Opción C.-) Editar usuarios y así sucesivamente.
+
+## Reto Viernes
+Listo, llegamos al reto número 5 de la semana. Nuestro programa ya funciona sumamente bien. Ya podemos crear, listar y editar usarios.
+
+Sin embargo, muy probablemente el código que tengamos hasta ahora pueda mejorar significativamente, es por ello que, para el reto de hoy vamos a definir 5 nuevas funciones; esto con la finalidad de poder separar nuestro código y que este sea fácil de leer, comprender y sobre todo mantener.
+
+Las 5 nuevas funciones serán las siguientes.
+
+new_user
+
+show_user
+
+edit_user
+
+delete_user
+
+list_users
+
+Las funciones, como bien sus nombre nos indican, nos permitirán seperar nuestra lógica para poder crear nuevos usuarios, consultarlos, editarlos, eliminarlos (Que es una nueva acción) y listarlos.
+
+Con Excepción de list_users y new_user, cada una de estas funciones deberá recibir como parámetro el ID de usuario con el cual se desea trabajar.
+
+Un pro Tip. Recuerda que las opciones puedas almacenarlas en como llaves en un diccionario y que, quizás, puedas almacenar las funciones en valores de esas llaves.
