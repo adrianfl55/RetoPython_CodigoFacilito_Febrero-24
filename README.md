@@ -65,15 +65,15 @@ Sin embargo, muy probablemente el código que tengamos hasta ahora pueda mejorar
 
 Las 5 nuevas funciones serán las siguientes.
 
-new_user
+*new_user
 
-show_user
+*show_user
 
-edit_user
+*edit_user
 
-delete_user
+*delete_user
 
-list_users
+*list_users
 
 Las funciones, como bien sus nombre nos indican, nos permitirán seperar nuestra lógica para poder crear nuevos usuarios, consultarlos, editarlos, eliminarlos (Que es una nueva acción) y listarlos.
 
